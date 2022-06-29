@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title"> What kind of books do you read?</h1>
+<p id="description" > We are trying to see which books we should sell on our online bookshop. </p>
+<form id="survey-form" >
+ <label id="name-label" for="name">Name</label>
+    <input id="name" type="text" placeholder="William Shakespeare" required/>
+    <br>
+    <label id="email-label" for="email" type="email" >email </label>
+    <input id="email" type="email" placeholder="JohnSmith2022@gmail.com" required/>
+    <br>
+    <label id="number-label" for="age">age</label>
+    <input id="number" type="number" min="18" max="120" placeholder="30">
+    <br> 
+<select id="dropdown">
+    <option></option>
+    <option></option>
+    <option></option>
+    <option></option>
+    <option></option>
+</select>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<label for="books-per-month">Do you spend more than 100 pounds on books per month?</label>
+<input for="books-per-month" type="checkbox" id="books-per-month" value="books-per-month" name="books-per-month" >
+<br>
+<label for="book-location" id="book-location-label">Do you buy books from Amazon?</label>
+<input type="checkbox" name="book-location" id="book-location" value="book-location">
+<br>
+<label for="non-fiction" id="label-for-non-fiction"> Do you read non fiction?</label>
+<input for="non-fiction" type="radio" name="non-fiction" value="non-fiction">Yes
+<input for="non-fiction" type="radio" name="non-fiction" value="non-fiction">No
+<label for="ficton" type="radio" id="fiction-label">
+  <br>
+Do you read fiction?</label>
+<input for="fiction" type="radio" name="fiction" value="fiction" >Yes 
+<input for="fiction" type="radio" value="fiction" name="fiction" value="fiction">No
+
+<br>
+<br>
+
+<label for="textarea"> Place suggestions of books you like down below.</label>
+<br>
+<textarea name="comments" rows="5" cols="30"
+placeholder="One hundred years of solitude">
+</textarea>
+<button id="submit">
+ <input for="button" type="submit" id="submit">
+ </button>
+</form>
+
+    
+</body>
+</html>
